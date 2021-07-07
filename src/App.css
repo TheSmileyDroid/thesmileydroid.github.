@@ -3,41 +3,89 @@
 }
 
 .Info {
-  display: inline;
-  align-items: center;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
 }
 
 .Foto {
   display: inline;
   margin: -10px auto;
-  height: 130%;
+  height: 135%;
   width: auto;
 }
 
 .Foto-div {
-  width: 100px;
-  height: 100px;
-  position: relative;
+  width: 200px;
+  height: 200px;
   overflow: hidden;
   border-radius: 50%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.Foto-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.Projetos-page {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.Projeto {
+  border-color: #29c25c;
+  border-width: 2px;
+  border-style: solid;
+  margin: 40px;
+  max-width: 20%;
+  min-height: 30vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.Projeto a {
+  margin-top: 30%;
+  display: contents;
+}
+
+.Projeto a img {
+  max-height: 100%;
+}
+
+.Projeto h3 {
+  background-color: #29c25c;
+  color: #ffffff;
+  margin: 0;
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #29c25c;
   min-height: 10vh;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-  /*position: fixed;*/
+}
+
+.App-header a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+  padding: 10px;
+}
+.App-header a:hover {
+  background-color: white;
+  color: #29c25c;
+}
+
+.icon {
+  color: #29c25c;
+  size: 20px;
 }
 
 .App-link {
