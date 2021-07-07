@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.f433fb18.chunk.css",
-    "main.js": "/static/js/main.ef0dfc5e.chunk.js",
-    "main.js.map": "/static/js/main.ef0dfc5e.chunk.js.map",
+    "main.js": "/static/js/main.5dc8ad3d.chunk.js",
+    "main.js.map": "/static/js/main.5dc8ad3d.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.b6e875b5.js",
     "runtime-main.js.map": "/static/js/runtime-main.b6e875b5.js.map",
     "static/js/2.05cdd24e.chunk.js": "/static/js/2.05cdd24e.chunk.js",
@@ -12,13 +12,13 @@
     "index.html": "/index.html",
     "static/css/main.f433fb18.chunk.css.map": "/static/css/main.f433fb18.chunk.css.map",
     "static/js/2.05cdd24e.chunk.js.LICENSE.txt": "/static/js/2.05cdd24e.chunk.js.LICENSE.txt",
-    "static/media/Foto-de-perfil.e4ceafce.png": "/static/media/Foto-de-perfil.e4ceafce.png",
+    "static/media/Foto-de-perfil.2a06f193.png": "/static/media/Foto-de-perfil.2a06f193.png",
     "static/media/discord-logo.223ae252.png": "/static/media/discord-logo.223ae252.png"
   },
   "entrypoints": [
     "static/js/runtime-main.b6e875b5.js",
     "static/js/2.05cdd24e.chunk.js",
     "static/css/main.f433fb18.chunk.css",
-    "static/js/main.ef0dfc5e.chunk.js"
+    "static/js/main.5dc8ad3d.chunk.js"
   ]
 }
